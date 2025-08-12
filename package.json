@@ -1,0 +1,53 @@
+{
+  "name": "yh-table",
+  "private": false,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "一个基于 Element Plus 的 Vue 3 表格组件",
+  "keywords": ["vue", "element-plus", "table", "component"],
+  "author": "M76 <690871024@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M76chao/X-Table.git"
+  },
+  "bugs": {
+    "url": "https://github.com/M76chao/YH-Table/issues"
+  },
+  "homepage": "https://github.com/M76chao/YH-Table#readme",
+  "main": "./dist/yh-table.umd.cjs",
+  "module": "./dist/yh-table.js",
+  "exports": {
+    ".": {
+      "import": "./dist/yh-table.js",
+      "require": "./dist/yh-table.umd.cjs"
+    },
+    "./style.css": "./dist/yh-table.css"
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:types": "vue-tsc --declaration --emitDeclarationOnly --outdir dist",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build && npm run build:types"
+  },
+  "dependencies": {
+    "element-plus": "^2.10.6",
+    "vue": "^3.5.18"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2",
+    "vue-tsc": "^3.0.5"
+  },
+  "peerDependencies": {
+    "element-plus": "^2.10.6",
+    "vue": "^3.5.18"
+  }
+}
