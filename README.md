@@ -61,6 +61,7 @@ const columns = ref([
 | firstRendder | Boolean | false | 是否首次渲染加载数据 |
 | showAllBtn | Boolean | false | 是否显示"显示全部"按钮 |
 | table | Object | {} | Element Plus 的 table 组件的所有参数 |
+| page | Object | {} | Element Plus 的 pagination 组件的所有参数 |
 | on | Object | {} | Element Plus 的 table 组件的所有监听 |
 
 ## 方法

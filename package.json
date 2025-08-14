@@ -1,7 +1,7 @@
 {
   "name": "yh-table",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.2",
   "type": "module",
   "description": "一个基于 Element Plus 的 Vue 3 表格组件",
   "keywords": ["vue", "element-plus", "table", "component"],
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/M76chao/X-Table.git"
+    "url": "https://github.com/M76chao/YH-Table.git"
   },
   "bugs": {
     "url": "https://github.com/M76chao/YH-Table/issues"
